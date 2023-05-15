@@ -1,0 +1,96 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+header h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Sections */
+section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.skills__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.skills__item .left {
+    flex: 1;
+}
+.skills__item .right {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills__item .right input[type=checkbox] {
+    display: none;
+}
+.skills__item .right label {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.skills__item .right input[type=checkbox]:checked + label {
+    background-color: #333;
+}
+
+/* Marks */
+.marks__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.marks__item .left {
+    flex: 1;
+}
+.marks__item .right {
+    font-weight: bold;
+}
+
+/* Biodata */
+.biodata__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.biodata__item .left {
+    flex: 1;
+}
+.biodata__item .right {
+    font-weight: bold;
+}
